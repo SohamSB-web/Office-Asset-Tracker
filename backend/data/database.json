@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "phone": "+919876501234",
+      "name": "Workshop Admin",
+      "role": "Admin",
+      "createdAt": "2026-10-08T14:00:00.000Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast_1",
+      "name": "MacBook Pro 16\" M3 Max",
+      "category": "Laptop",
+      "serialNumber": "MBP-2024-9011",
+      "status": "Assigned",
+      "assignedTo": "Sarah Chen (Lead Engineer)",
+      "location": "Engineering Pod B",
+      "createdAt": "2026-10-03T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z"
+    },
+    {
+      "id": "ast_2",
+      "name": "Dell UltraSharp 32\" 4K Monitor",
+      "category": "Monitor",
+      "serialNumber": "DEL-U32-4421",
+      "status": "Available",
+      "assignedTo": "",
+      "location": "IT Storage Room 3A",
+      "createdAt": "2026-10-05T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z"
+    },
+    {
+      "id": "ast_3",
+      "name": "Herman Miller Aeron Chair",
+      "category": "Furniture",
+      "serialNumber": "HMA-CH-8802",
+      "status": "Available",
+      "assignedTo": "",
+      "location": "Floor 2 Flex Area",
+      "createdAt": "2026-10-04T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z"
+    },
+    {
+      "id": "ast_4",
+      "name": "ThinkPad P1 Gen 6 Workstation",
+      "category": "Laptop",
+      "serialNumber": "TP-P1-3319",
+      "status": "Maintenance",
+      "assignedTo": "",
+      "location": "Hardware Repair Desk",
+      "createdAt": "2026-10-01T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z"
+    },
+    {
+      "id": "ast_5",
+      "name": "Apple iPad Pro 12.9\" M2",
+      "category": "Tablet",
+      "serialNumber": "APP-IPD-7704",
+      "status": "Assigned",
+      "assignedTo": "Alex Rivera (Product Designer)",
+      "location": "Design Studio 1",
+      "createdAt": "2026-10-06T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z"
+    }
+  ],
+  "assetLogs": [
+    {
+      "id": "log_1",
+      "assetId": "ast_1",
+      "action": "ASSIGNED",
+      "details": "Assigned to Sarah Chen (Lead Engineer)",
+      "performedBy": "Workshop Admin",
+      "timestamp": "2026-10-03T14:00:00.000Z"
+    },
+    {
+      "id": "log_2",
+      "assetId": "ast_4",
+      "action": "STATUS_CHANGED",
+      "details": "Sent for battery replacement diagnostics",
+      "performedBy": "Workshop Admin",
+      "timestamp": "2026-10-06T14:00:00.000Z"
+    }
+  ]
+}
